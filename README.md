@@ -24,8 +24,6 @@ It pings all devices in your subnet, detects their **IP**, **MAC address**, **la
 pip install -r requirements.txt
 requirements.txt should contain:
 
-txt
-Copy code
 Flask
 pandas
 reportlab
@@ -41,12 +39,12 @@ Open a terminal in the project folder.
 Start the app:
 
 bash
-Copy code
+
 python network_monitor.py
 Open your browser and go to:
 
 cpp
-Copy code
+
 http://127.0.0.1:5000
 🖥️ Usage
 Enter your network details:
@@ -69,8 +67,6 @@ Use Export to Excel/PDF buttons to save reports.
 Use the Ping Tool at the bottom to test external hosts (e.g., 8.8.8.8).
 
 📂 Project Structure
-bash
-Copy code
 network_monitor.py    # Main Flask app
 requirements.txt      # Python dependencies
 🛠️ Notes
